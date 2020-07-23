@@ -26,7 +26,7 @@ var chartGroup = svg.append("g")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import data from CSV
-d3.csv("data.csv").then(function(censusData) {
+d3.csv("data/data.csv").then(function(censusData) {
     console.log(censusData);
 
     // Cast data
