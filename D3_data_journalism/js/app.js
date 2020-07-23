@@ -67,7 +67,7 @@ d3.csv("data/data.csv").then(function(censusData) {
         .attr("cx", d => xScale(d.poverty))
         .attr("cy", d => yScale(d.healthcare))
         .attr("r", "10")
-        .attr("fill", "lightblue")
+        .attr("fill", "powderblue")
         .attr("stroke-width", "1")
         .attr("stroke", "black");
 
